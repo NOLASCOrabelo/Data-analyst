@@ -1,2 +1,2 @@
 # Data-analyst
-Progessing of projects personal, the power plataform, SQl the others.
+Progessing of projects personal, the power plataform, SQl and others.

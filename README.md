@@ -38,8 +38,7 @@
   <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/[USERNAME]/[USERNAME]/output/pacman-contribution-graph.svg">
 </picture>
 
-_generated with [NOLASCOrabelo/pacman-contribution-graph]
-
+_generated with [NOLASCOrabelo/pacman-contribution-graph](https://abozanona.github.io/pacman-contribution-graph/)_
 ###
 
 

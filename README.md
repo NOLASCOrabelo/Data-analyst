@@ -10,7 +10,7 @@
 
 ###
 
-<p align="left">✨ Whenever creating projects for my carrer, I´m procrastion<br>📚 I'm currently learning data base and cibersecurity<br>🎯 Goals: ...<br>🎲 Fun fact: I am Christian.</p>
+<p align="left">✨ Whenever creating projects for my carrer, I´m procrastination <br>📚 I'm currently learning data base and cibersecurity<br>🎯 Goals: ...<br>🎲 Fun fact: I am Christian.</p>
 
 ###
 

@@ -1,0 +1,12 @@
+filme = 'It: A Coisa'
+nome = input(f"Digite o seu nome: ")
+idade = int(input(f"Digite a sua idade: "))
+
+if idade < 0:
+print(f'Idade incorreta')
+elif idade <= 12:
+print(f'Você não pode entrar no cinema, você é uma criança.')
+elif idade <= 17:
+print(f'Você está cresendo, mas não pode entrar sozinho no cinema para assistir {filme}.')
+else:
+print(f'Você pode entrar no cinema e assistir {filme}.')

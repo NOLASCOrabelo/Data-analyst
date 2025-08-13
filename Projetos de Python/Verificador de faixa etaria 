@@ -3,10 +3,12 @@ nome = input(f"Digite o seu nome: ")
 idade = int(input(f"Digite a sua idade: "))
 
 if idade < 0:
-print(f'Idade incorreta')
+    print("Idade inválida.")
 elif idade <= 12:
-print(f'Você não pode entrar no cinema, você é uma criança.')
+    print("Você ainda não pode assistir ao {filme} pois a faixa etária é de 18+ ")
 elif idade <= 17:
-print(f'Você está cresendo, mas não pode entrar sozinho no cinema para assistir {filme}.')
+    print("Você" " pode assistir ao {filme} com a supervisão de um adulto.")
+elif idade <= 59:
+    print("Você pode assistir ao {filme} sem restrições.")
 else:
-print(f'Você pode entrar no cinema e assistir {filme}.')
+    print("Você paga meia entrada para assistir ao {filme}.")

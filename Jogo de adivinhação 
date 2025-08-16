@@ -1,0 +1,15 @@
+numero_secreto = 42
+tentativas = 0
+acertou = False
+
+while acertou == False:
+    palpite = int(input("Tente adivinhar o número entre 1 e 100: "))
+    tentativas += 1
+
+    if palpite < numero_secreto:
+        print("Está frio!")
+    elif palpite > numero_secreto:
+        print("Está quente!")
+    else:
+        print(f"Parabéns! Você acertou o {numero_secreto} em {tentativas}")
+        acertou = True

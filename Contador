@@ -1,0 +1,11 @@
+nome = input(f"Digite o seu nome: ")
+numero = int(input(f"Digite um número: "))
+
+if numero < 1:
+    print("Número inválido.")
+else:
+  contador = 1
+  while contador <= numero:
+     if contador % 2 != 0:
+        print(contador)
+     contador += 2

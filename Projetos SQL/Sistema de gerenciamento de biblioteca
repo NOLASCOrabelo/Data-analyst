@@ -1,0 +1,46 @@
+create table Livros(
+    id_livro int primary key IDENTITY(1,1),
+    titulo VARCHAR(100) not null,
+    autor VARCHAR(100) not null,
+    ano_publicacao int,
+    genero VARCHAR(50)
+);
+
+CREATE TABLE Autores (
+    id INT PRIMARY KEY IDENTITY(1,1),
+    nome VARCHAR(100) NOT NULL,
+    data_nascimento DATE NOT NULL
+);
+
+CREATE TABLE Membros (
+    id INT PRIMARY KEY IDENTITY(1,1),
+    nome VARCHAR(100) NOT NULL,
+    data_inscricao DATE NOT NULL
+);
+
+CREATE TABLE Livro(
+    LivroID int PRIMARY key,
+    Titulo varchar2(255) not null
+);
+
+CREATE Table Autor(
+    AutorID INT PRIMARY KEY,
+    Nome VARCHAR2(100) not NULL
+);
+CREATE TABLE LivroAutor(
+    LivroId INT,
+    AutorID INT,
+    PRIMARY KEY (LivroId, AutorID),
+    FOREIGN KEY (LivroId) REFERENCES Livro(LivroID),
+    FOREIGN KEY (AutorID) REFERENCES Autor(AutorID)
+);
+
+CREATE TABLE Emprestimos (
+    id INT PRIMARY KEY IDENTITY(1,1),
+    livro_id INT,
+    membro_id INT,
+    data_emprestimo DATE NOT NULL,
+    data_devolucao DATE,
+    FOREIGN KEY (livro_id) REFERENCES Livros(id_livro),
+    FOREIGN KEY (membro_id) REFERENCES Membros(id)
+);
